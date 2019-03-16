@@ -1,190 +1,215 @@
-body{
-	background-image: url('/static/img/back.png');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+body {
+    background-image: url('/static/img/back.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 
 /*header start*/
-#mainh1{
-	text-align: center;
-	font-size: 50px;
-	font-family: Algerian;
-    
+
+#mainh1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Algerian;
 }
 
-#div1{
- 	background-color: white;
- 	border: 5px solid black;
- 	padding: 0px;
-	margin: 50px;
-	margin-right: 200px;
-	margin-left: 200px;
+#div1 {
+    background-color: white;
+    border: 5px solid black;
+    padding: 0px;
+    margin: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
+
+
 /*header end*/
 
-#ul1{
-  list-style-type: none;
-  margin-top: 50px;
-  margin-bottom: 10px;
-  margin-left: 270px;
-  margin-right: 150px;
-  padding: 100;
-  overflow: hidden;
-  background-color: #333333;
-  border-radius: 20px;
-  position: -webkit-sticky; 
-  position: sticky;
-  top: 0;
+#ul1 {
+    list-style-type: none;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    margin-left: 270px;
+    margin-right: 150px;
+    padding: 100;
+    overflow: hidden;
+    background-color: #333333;
+    border-radius: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    min-width: 700px;
+    max-width: 800px;
 }
 
-.menulist{
-  float: left;
+.menulist {
+    float: left;
 }
 
-.menulista{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 20px 50px;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: sans-serif;
-  
+.menulista {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
 }
 
 .menulista:hover {
-  background-color: lightblue;
-  color: black;
-  font-family: monospace;
-}
-.menulista:active {
-  background-color: lightblue;
-  color: black;
-  font-family: monospace;
+    background-color: lightblue;
+    color: black;
+    font-family: monospace;
 }
 
-.pre1{
-	font-family: Calibri;
-	font-size: 20px;
+.menulista:active {
+    background-color: lightblue;
+    color: black;
+    font-family: monospace;
 }
+
+.pre1 {
+    font-family: Calibri;
+    font-size: 20px;
+}
+
 
 /*search bar end*/
 
+
 /*home start*/
-#divhome{
-  text-align: center;
-  color: aliceblue;
-  font-family: monospace;
-  letter-spacing: 3px;
-    
-    
+
+#divhome {
+    text-align: center;
+    color: aliceblue;
+    font-family: monospace;
+    letter-spacing: 3px;
 }
 
-#h1{
-  text-align: center;
-  font-size: 50px;
-  margin-top: 0;
-  font-family: Algerian;
-  padding-top: 20px;
-  font-size: 70px;
+#h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    font-family: Algerian;
+    padding-top: 20px;
+    font-size: 70px;
 }
 
-#home{
-  background-color: black;
-  border: 5px solid black;
-  border-radius: 20px;
-  padding-bottom: 0px;
-  margin-top: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 0px;
-  padding-top: 10px;
-  padding-bottom: 50px;
-  
-  background-image: url('/static/img/filmstrip_PNG30.png');
-    
-  background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-size: cover;
+#home {
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-image: url('/static/img/filmstrip_PNG30.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    min-width: 800px;
+    max-width: 8000px;
 }
 
-#ul2{
-	list-style: none;
+#ul2 {
+    list-style: none;
 }
 
-.li2:before{
-	content: "✓ ";
+.li2:before {
+    content: "✓ ";
 }
 
-.lol{
-	margin-left: 60px;
-	margin-top: 0px;
-	margin-bottom: 20px;
-	margin-right: 0px;
+.lol {
+    margin-left: 60px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 0px;
 }
 
-#div3{
-	background-color: #333333;
-	color: white;
-	border: 3px solid black;
-	padding: 10px;
-	width: 30%;
-	margin-top: 50px;
-	font-size: 20px;
-	display: inline-block;
-	margin-right: 30px;
-  margin-left:30px;
-  border-radius: 10px;
-  height: 400px;
+#div3 {
+    background-color: #333333;
+    color: white;
+    border: 3px solid black;
+    padding: 10px;
+    width: 30%;
+    margin-top: 50px;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: -10px;
+    border-radius: 10px;
+    height: 400px;
 }
 
-.cell2{
-	display: inline-block;
-	width: 29%;
-	vertical-align: top;
-	margin-top: 0px;
-
+.cell2 {
+    display: inline-block;
+    width: 19%;
+    vertical-align: top;
+    margin-top: 120px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .cell2 img {
-	display: inline-block;
-  width: 90%;
-  height: 90%;
+    display: inline-block;
+    width: 90%;
+    height: 90%;
 }
+
+.bilet {
+    text-align: center;
+}
+
 .intro {
-  font-family: monospace;
-  color: azure;
-  text-align: center;
+    font-family: monospace;
+    color: azure;
+    text-align: center;
 }
+
 .search-1 {
-  font-size: 35px;
-  border: 3px solid darkblue;
-  border-radius: 10px;
-  padding: 10px 54px 10px 54px;
-  text-align: center;
-  text-decoration: none;
-  background-color: darkgray;
+    font-size: 32px;
+    border: 3px solid darkblue;
+    border-radius: 10px;
+    padding: 10px 54px 10px 54px;
+    text-align: center;
+    text-decoration: none;
+    background-color: darkgray;
+    font-family: Algerian;
+    margin-top: 15px;
 }
+
 .search-2 {
-  font-size: 35px;
-  border: 3px solid darkblue;
-  border-radius: 10px;
-  padding: 10px 30px 10px 20px;
-  margin:30px 0px 20px 5px;
-  text-decoration: none;
-  background-color: darkgray;
+    font-family: Algerian;
+    font-size: 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px 30px 10px 20px;
+    margin: 30px 0px 20px 5px;
+    text-decoration: none;
+    background-color: darkgray;
 }
+
 .search-1:hover {
-  background-color: lightblue;
-    
+    background-color: gray;
 }
+
 .search-2:hover {
-  background-color: lightblue;
-    
+    background-color: gray;
 }
+
 a {
-  text-decoration: none;
-  color:black;
+    text-decoration: none;
+    color: black;
 }
+
+.row2 {
+    text-align: center;
+    margin-right: 50px;
+}
+
+
 /*home end*/

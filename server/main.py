@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, send_from_directory
 
 app = Flask(__name__)
 
@@ -25,6 +25,10 @@ def index_theatre_tab():
 @app.route('/kino-tab')
 def index_kino_tab():
     return render_template("kino-tab.html")
+
+@app.route('/cinema_data')
+def cinema_data():
+    return send_from_directory('static', 'kino_arena.json')
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port='5000', debug=True)
