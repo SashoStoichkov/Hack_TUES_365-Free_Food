@@ -23,38 +23,12 @@ body{
 }
 /*header end*/
 
-/*ul nav menu start*/
-/* old
-#ul1{
-  list-style-type: none;
-  margin: 100;
-  margin-left: 150px;
-  margin-right: 150px;
-  padding: 100;
-  overflow: hidden;
-  background-color: #333333;
-}
-.menulist{
-  float: left;
-}
-.menulista{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 30px;
-  text-decoration: none;
-}
-.menulista:hover {
-  background-color: pink;
-  color: black;
-}
-old end*/
-/*ul nav menu end*/
+/* SASHO TUK IMA MALKO PROMENI V MARGINA*/
 
 #ul1{
   list-style-type: none;
   margin-top: 50px;
-  margin-bottom: 10px;
+  margin-bottom: -10px;
   margin-left: 270px;
   margin-right: 150px;
   padding-right: 0px ;
@@ -69,7 +43,7 @@ old end*/
 .menulist{
   float: left;
 }
-
+/* SASHO TUK IMA PROMENI V PADDINGA*/
 .menulista{
   display: block;
   color: white;
@@ -149,6 +123,7 @@ old end*/
 	display: inline-block;
 	width: 49%;
 	vertical-align: top;
+	background-color: none;
 }
 
 .cell img {
@@ -160,11 +135,12 @@ old end*/
 	margin-bottom: 50px;
 }
 #film-img {
-    height: 240px;
-    width: 230px;
+    height: 250px;
+    width: auto;
     margin-left: 210px;
     margin-top: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    margin-right: -20px;
     
 }
 .header {
@@ -184,10 +160,12 @@ a:hover {
     color : aliceblue;
 }
 #film-img1 {
-    height: 240px;
-    width: 230px;
+    height: 250px;
+    width: auto;
     margin-left: 210px;
     margin-top: 10px;
+    margin-right: -20px;
+    margin-bottom: 50px;
 }
 .header1 {
     font-size: 35px;
@@ -195,14 +173,17 @@ a:hover {
     color: aliceblue;
     margin-top: 30px; 
 }
+/* SASHO COPIRAY OT TUK DO KRAYA*/
 #mySearch {
   width: 50%;
   font-size: 20px;
   padding: 15px;
   border:3px solid blue;
     margin-left: 250px;
-    margin-bottom: 20px;
-    margin-top: -15px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    position: -webkit-sticky; 
+    top : 0;
 }
 #myMenu {
   list-style-type: none;
@@ -211,15 +192,36 @@ a:hover {
 }
 
 #myMenu li a {
-  color: aliceblue;
   padding: 12px;
+  color: white;
+  text-align: center;
   text-decoration: none;
   font-size: 30px;
-  margin-left: -70px;
-  display: block;
+  margin-left: -140px;
+  display: flex;
+
 }
 
 #myMenu li a:hover {
-  background-color: white;
-  color: darkcyan;
+  max-width: 500px;
+  min-width: 200px;
+  border-radius: 15px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: none;
+  color: white;
 }
+
+ .view{
+ 	
+	width: 0px;
+	font-size: 25px;
+	border:none;
+		
+ 	background-color: black;
+
+
+ }
+
+ 
