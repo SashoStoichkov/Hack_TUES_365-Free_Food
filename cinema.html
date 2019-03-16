@@ -2,193 +2,290 @@
 <html>
 
 <head>
-	<title>Watch it</title>
+    <title>Watch it</title>
 
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="stylesheet" href="theatre.css">
+    <link rel="stylesheet" href="/static/css/theatre.css">
 </head>
-
-
 
 <body>
 
-
-<ul id="ul1">
-	<li class="menulist"><a class="menulista" href="home.html">Начало</a></li>
-	<li class="menulist"><a class="menulista" href="theatre.html">Театър</a></li>
-	<li class="menulist"><a class="menulista" href="cinema.html">Кино</a></li>
-	<li class="menulist"><a class="menulista" href="most popular.html">Популярни</a></li>
-</ul>
-
-<div id="about-the-page">
-	<div id="fuckit">
-		<h1 id="about">Изберете филм</h1>
-	</div>
-    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search for..." title="Type in a category">
-	<ul id = "myMenu">
-        <li><div class="myMenu">
-		  <div class="cell">
-			<img id = "film-img" src="./img/il.jpg" alt="lol">
-		  </div>
-		<div class="cell">
-            <div class="header"><a href= "#">TITLE</a></div>
-            
-            </div></div></li>
-	
-        <li><div class="row">
-		<div class="cell">
-			<img id = "film-img1" src="./img/il.jpg" alt="film">
-		</div>
-		<div class="cell">
-            <div class="header1"><a href="theatre-tab/theatre-tab.html">TITLE</a></div>
-           
-		  </div>
-
-            </div></li>
-        <li><div class="row">
-		<div class="cell">
-			<img id = "film-img1" src="./img/il.jpg" alt="film">
-		</div>
-		<div class="cell">
-            <div class="header1"><a href="theatre-tab/theatre-tab.html">TITLE</a></div>
-           
-		  </div>
-
-            </div></li>
-        <li><div class="row">
-		<div class="cell">
-			<img id = "film-img1" src="./img/il.jpg" alt="film">
-		</div>
-		<div class="cell">
-            <div class="header1"><a href="theatre-tab/theatre-tab.html">TITLE</a></div>
-           
-		  </div>
-
-            </div></li>
-        <li><div class="row">
-		<div class="cell">
-			<img id = "film-img1" src="./img/il.jpg" alt="film">
-		</div>
-		<div class="cell">
-            <div class="header1"><a href="theatre-tab/theatre-tab.html">TITLE</a></div>
-           
-		  </div>
-
-            </div></li>
-        <li><div class="row">
-		<div class="cell">
-			<img id = "film-img1" src="./img/il.jpg" alt="film">
-		</div>
-		<div class="cell">
-            <div class="header1"><a href="theatre-tab/theatre-tab.html">TITLE</a></div>
-           
-		  </div>
-
-            </div></li>
-        <li><div class="row">
-		<div class="cell">
-			<img id = "film-img1" src="./img/il.jpg" alt="film">
-		</div>
-		<div class="cell">
-            <div class="header1"><a href="theatre-tab/theatre-tab.html">TITLE</a></div>
-           
-		  </div>
-
-            </div></li>
-        <li><div class="row">
-		<div class="cell">
-			<img id = "film-img1" src="./img/il.jpg" alt="film">
-		</div>
-		<div class="cell">
-            <div class="header1"><a href="theatre-tab/theatre-tab.html">TITLE</a></div>
-           
-		  </div>
-
-            </div></li>
-        <li><div class="row">
-		<div class="cell">
-			<img id = "film-img1" src="./img/il.jpg" alt="film">
-		</div>
-		<div class="cell">
-            <div class="header1"><a href="theatre-tab/theatre-tab.html">TITLE</a></div>
-           
-		  </div>
-
-            </div></li>
-        <li><div class="row">
-		<div class="cell">
-			<img id = "film-img1" src="./img/il.jpg" alt="film">
-		</div>
-		<div class="cell">
-            <div class="header1"><a href="theatre-tab/theatre-tab.html">TITLE</a></div>
-           
-		  </div>
-
-            </div></li>
-        <li><div class="row">
-		<div class="cell">
-			<img id = "film-img1" src="./img/il.jpg" alt="film">
-		</div>
-		<div class="cell">
-            <div class="header1"><a href="theatre-tab/theatre-tab.html">TITLE</a></div>
-           
-		  </div>
-
-            </div></li>
-        <li><div class="row">
-		<div class="cell">
-			<img id = "film-img1" src="./img/il.jpg" alt="film">
-		</div>
-		<div class="cell">
-            <div class="header1"><a href="theatre-tab/theatre-tab.html">TITLE</a></div>
-           
-		  </div>
-
-            </div></li>
-        <li><div class="row">
-		<div class="cell">
-			<img id = "film-img1" src="./img/il.jpg" alt="film">
-		</div>
-		<div class="cell">
-            <div class="header1"><a href="theatre-tab/theatre-tab.html">fuck</a></div>
-           
-		  </div>
-
-            </div></li>
-        <li><div class="row">
-		<div class="cell">
-			<img id = "film-img1" src="./img/il.jpg" alt="film">
-		</div>
-		<div class="cell">
-            <div class="header1"><a href="theatre-tab/theatre-tab.html">fake</a></div>
-           
-		  </div>
-
-            </div></li>
-
-    
+    <ul id="ul1">
+        <li class="menulist"><a class="menulista" href="/">Начало</a></li>
+        <li class="menulist"><a class="menulista" href="/theatre">Театър</a></li>
+        <li class="menulist"><a class="menulista" href="/cinema">Кино</a></li>
+        <li class="menulist"><a class="menulista" href="/most-popular">Популярни</a></li>
     </ul>
+    <img style="width: 230px; height:auto; margin-top: -4200px; margin-bottom: 0px" src="/static/img/logo.png" />
+    <div id="about-the-page">
+        <div id="fuckit">
+            <h1 id="about">Изберете филм</h1>
+        </div>
+        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search for..." title="Type in a category">
+        <ul id="myMenu">
+            <li>
+                <div class="myMenu">
+                    <div class="cell">
+                        <img id="film-img" src="/static/img/il.jpg" alt="lol">
+                    </div>
+                    <div class="cell">
+                        <div class="header"><a href="/kino-tab">TITLE</a></div>
+
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">TITLE</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">TITLE</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">TITLE</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">TITLE</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">TITLE</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">TITLE</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">TITLE</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">TITLE</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">TITLE</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">TITLE</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">TITLE</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">fuck</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">fake</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">fake</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">fake</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">fake</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">fake</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">fake</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li>
+                <div class="row">
+                    <div class="cell">
+                        <img id="film-img1" src="/static/img/il.jpg" alt="film">
+                    </div>
+                    <div class="cell">
+                        <div class="header1"><a href="/kino-tab">fakeEnd</a></div>
+
+                    </div>
+
+                </div>
+            </li>
+
+        </ul>
     </div>
-<script>
-function myFunction() {
-  var input, filter, ul, li, a, i;
-  input = document.getElementById("mySearch");
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("myMenu");
-  li = ul.getElementsByTagName("li");
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
-    }
-  }
-}
-</script>
+    <script>
+        function myFunction() {
+            var input, filter, ul, li, a, i;
+            input = document.getElementById("mySearch");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myMenu");
+            li = ul.getElementsByTagName("li");
+            for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+        }
+    </script>
 </body>
 
 </html>
