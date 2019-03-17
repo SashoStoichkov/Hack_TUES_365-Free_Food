@@ -1,5 +1,5 @@
 body {
-    background-image: url('/static/img/back.png');
+    background-image: url('img/back.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -28,19 +28,17 @@ body {
 
 #ul1 {
     list-style-type: none;
-    margin-top: 70px;
-    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: -10px;
     margin-left: 270px;
     margin-right: 150px;
-    padding: 100;
+    padding-right: 0px;
     overflow: hidden;
     background-color: #333333;
     border-radius: 20px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    min-width: 700px;
-    max-width: 800px;
 }
 
 .menulist {
@@ -51,7 +49,7 @@ body {
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 50px;
+    padding: 20px 70px;
     text-decoration: none;
     font-size: 20px;
     font-family: sans-serif;
@@ -111,13 +109,11 @@ body {
     padding-top: 10px;
     padding-bottom: 50px;
     position: relative;
-    background-image: url('/static/img/filmstrip_PNG30.png');
+    background-image: url('img/filmstrip_PNG30.png');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    min-width: 800px;
-    max-width: 8000px;
     /*background-repeat: no-repeat;*/
     /*background-attachment: fixed;*/
 }
@@ -133,6 +129,7 @@ body {
     display: inline-block;
     width: 49%;
     vertical-align: top;
+    background-color: none;
 }
 
 .cell img {
@@ -145,11 +142,12 @@ body {
 }
 
 #film-img {
-    height: 240px;
-    width: 230px;
+    height: 250px;
+    width: auto;
     margin-left: 210px;
     margin-top: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    margin-right: -20px;
 }
 
 .header {
@@ -169,10 +167,12 @@ a:hover {
 }
 
 #film-img1 {
-    height: 240px;
-    width: 230px;
+    height: 250px;
+    width: auto;
     margin-left: 210px;
     margin-top: 10px;
+    margin-right: -20px;
+    margin-bottom: 50px;
 }
 
 .header1 {
@@ -186,12 +186,11 @@ a:hover {
     width: 50%;
     font-size: 20px;
     padding: 15px;
-    border: 3px solid black;
+    border: 3px solid blue;
     margin-left: 250px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     margin-top: 30px;
     position: -webkit-sticky;
-    position: sticky;
     top: 0;
 }
 
@@ -202,15 +201,29 @@ a:hover {
 }
 
 #myMenu li a {
-    color: aliceblue;
     padding: 12px;
+    color: white;
+    text-align: center;
     text-decoration: none;
     font-size: 30px;
-    margin-left: -70px;
-    display: block;
+    margin-left: -140px;
+    display: flex;
 }
 
 #myMenu li a:hover {
-    background-color: white;
-    color: darkcyan;
+    max-width: 500px;
+    min-width: 200px;
+    border-radius: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: none;
+    color: white;
+}
+
+.view {
+    width: 0px;
+    font-size: 25px;
+    border: none;
+    background-color: black;
 }
