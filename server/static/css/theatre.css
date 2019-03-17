@@ -26,6 +26,9 @@ body {
 
 /*header end*/
 
+
+/* SASHO TUK IMA MALKO PROMENI V MARGINA*/
+
 #ul1 {
     list-style-type: none;
     margin-top: 50px;
@@ -44,6 +47,9 @@ body {
 .menulist {
     float: left;
 }
+
+
+/* SASHO TUK IMA PROMENI V PADDINGA*/
 
 .menulista {
     display: block;
@@ -129,7 +135,6 @@ body {
     display: inline-block;
     width: 49%;
     vertical-align: top;
-    background-color: none;
 }
 
 .cell img {
@@ -182,6 +187,9 @@ a:hover {
     margin-top: 30px;
 }
 
+
+/* SASHO COPIRAY OT TUK DO KRAYA*/
+
 #mySearch {
     width: 50%;
     font-size: 20px;
@@ -191,6 +199,7 @@ a:hover {
     margin-bottom: 50px;
     margin-top: 30px;
     position: -webkit-sticky;
+    position: sticky;
     top: 0;
 }
 
@@ -201,29 +210,17 @@ a:hover {
 }
 
 #myMenu li a {
+    color: aliceblue;
     padding: 12px;
-    color: white;
-    text-align: center;
     text-decoration: none;
     font-size: 30px;
     margin-left: -140px;
-    display: flex;
+    margin-right: 200px;
+    display: block;
+    text-transform: uppercase;
 }
 
 #myMenu li a:hover {
-    max-width: 500px;
-    min-width: 200px;
-    border-radius: 15px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    background-color: none;
-    color: white;
-}
-
-.view {
-    width: 0px;
-    font-size: 25px;
-    border: none;
-    background-color: black;
+    background-color: white;
+    color: darkcyan;
 }

@@ -1,5 +1,5 @@
 body {
-    background-image: url('img/back.png');
+    background-image: url('/static/img/back.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -107,7 +107,7 @@ body {
     padding-top: 10px;
     padding-bottom: 50px;
     position: relative;
-    background-image: url('http://pngimg.com/uploads/filmstrip/filmstrip_PNG30.png');
+    background-image: url('/static/img/filmstrip_PNG30.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;

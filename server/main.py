@@ -22,9 +22,6 @@ def index_most_popular():
 def index_theatre_tab():
     return render_template("theatre-tab.html")
 
-@app.route('/kino-tab')
-def index_kino_tab():
-    return render_template("kino-tab.html")
 
 @app.route('/cinema_data')
 def cinema_data():
