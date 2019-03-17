@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Watch it</title>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="theatre.css">
+</head>
+
+
+
+<body>
+
+
+<ul id="ul1">
+	<li class="menulist"><a class="menulista" href="home.html">Начало</a></li>
+	<li class="menulist"><a class="menulista" href="theatre.html">Театър</a></li>
+	<li class="menulist"><a class="menulista" href="cinema.html">Кино</a></li>
+	<li class="menulist"><a class="menulista" href="most popular.html">Популярни</a></li>
+</ul>
+    
+  <img style="width: 230px; height:auto; margin-top: -4200px; margin-bottom: 0px" src="/static/img/logo.png">    
+
+<div id="about-the-page">
+	<div id="fuckit">
+		<h1 id="about">Изберете постановка</h1>
+	</div>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search for..." title="Type in a category">
+	<ul id = "myMenu">
+        
+        <li><div class="row">
+		<div class="cell">
+			<img id = "film-img1" src="./img/alonso.jpg" alt="film">
+		</div>
+		<div class="cell">
+            <div class="header1"><a href="#">АЛОНСО</a></div>
+           
+		  </div>
+
+            </div></li>
+
+        <li><div class="row">
+		<div class="cell">
+			<img id = "film-img1" src="./img/bogorodica.jpg" alt="film">
+		</div>
+		<div class="cell">
+            <div class="header1"><a href="#">ПАРИЖКАТА СВЕТА БОГОРОДИЦА</a></div>
+           
+		  </div>
+
+            </div></li>
+        
+        <li><div class="row">
+		<div class="cell">
+			<img id = "film-img1" src="./img/palachi.jpg" alt="film">
+		</div>
+		<div class="cell">
+            <div class="header1"><a href="#">ПАЛАЧИ</a></div>
+           
+		  </div>
+
+            </div></li>
+        <li><div class="row">
+		<div class="cell">
+			<img id = "film-img1" src="./img/zakachane.jpg" alt="film">
+		</div>
+		<div class="cell">
+            <div class="header1"><a href="#">ЗАКАЧАНЕ</a></div>
+           
+		  </div>
+
+            </div></li>
+        <li><div class="row">
+		<div class="cell">
+			<img id = "film-img1" src="./img/sirena.jpg" alt="film">
+		</div>
+		<div class="cell">
+            <div class="header1"><a href="#">МАЛКАТА МОРСКА СИРЕНА</a></div>
+           
+		  </div>
+
+            </div></li>
+        <li><div class="row">
+		<div class="cell">
+			<img id = "film-img1" src="./img/razvratnikat.jpg" alt="film">
+		</div>
+		<div class="cell">
+            <div class="header1"><a href="#">РАЗВРАТНИКЪТ</a></div>
+           
+		  </div>
+
+            </div></li>
+        <li><div class="row">
+		<div class="cell">
+			<img id = "film-img1" src="./img/palachi1.jpg" alt="film">
+		</div>
+		<div class="cell">
+            <div class="header1"><a href="#">ПИПИ</a></div>
+           
+		  </div>
+
+            </div></li>
+        <li><div class="row">
+		<div class="cell">
+			<img id = "film-img1" src="./img/tiramisu.jpg" alt="film">
+		</div>
+		<div class="cell">
+            <div class="header1"><a href="#">ТИРАМИСУ</a></div>
+           
+		  </div>
+
+            </div></li>
+        <li><div class="row">
+		<div class="cell">
+			<img id = "film-img1" src="./img/pitarpan.jpg" alt="film">
+		</div>
+		<div class="cell">
+            <div class="header1"><a href="#">ПИТЪР ПАН</a></div>
+           
+		  </div>
+
+         </div></li>
+        <li><div class="row">
+		<div class="cell">
+			<img id = "film-img1" src="./img/revisor.jpg" alt="film">
+		</div>
+		<div class="cell">
+            <div class="header1"><a href="#">РЕВИЗОР</a></div>
+           
+		  </div>
+
+            </div></li>
+
+    
+    </ul>
+    </div>
+    
+<script>
+function myFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+</body>
+
+</html>
